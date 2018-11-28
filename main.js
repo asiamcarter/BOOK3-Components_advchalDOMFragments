@@ -33,6 +33,8 @@ const fragment = document.createDocumentFragment()
     section5.textContent = "kBYE"
     fragment.appendChild(section5)
 
+document.querySelector("section").appendChild(fragment)
+
 
     
     
